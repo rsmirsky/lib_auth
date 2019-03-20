@@ -13,6 +13,6 @@
 фабриками в файле C:\xampp\htdocs\clean_10\database\factories\UserFactory.php
 Прописав в редакторе php tinker команды в таком порядке 
 - factory('App\Author', 50)->create();
-- factory('App\Author', 50)->create();
+- factory('App\Book', 50)->create();
 
 
