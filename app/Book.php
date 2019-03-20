@@ -8,6 +8,6 @@ class Book extends Model
 {
     public function author()
     {
-        $this->belongsToMany("App\Author");
+        $this->belongsToMany('App\Author', 'authors');
     }
 }

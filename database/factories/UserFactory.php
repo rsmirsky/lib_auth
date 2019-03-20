@@ -36,5 +36,9 @@ $factory->define(Author::class, function (Faker $faker) {
 $factory->define(Book::class, function (Faker $faker) {
     return [
         'title' => $faker->city,
+        /*'author_id' => function () {
+            return factory(App\Author::class)->create()->id;
+        },*/
+
     ];
 });
