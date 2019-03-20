@@ -6,8 +6,14 @@
 
             <div class="row">
                 @foreach($authors as $author)
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
+                    <div class="col-md-4"  >
+                        <style>
+                            p {
+                                text-align: center; /* Выравнивание по ширине */
+                                color: black; /* Зелёный цвет текста */
+                            }
+                        </style>
+                        <div class="card mb-4 shadow-sm" >
                             <img src="https://cdn3.iconfinder.com/data/icons/education-and-school-8/48/Book-256.png"
                                  alt="">
                            <p>Автор: {{ $author->name }}</p>
